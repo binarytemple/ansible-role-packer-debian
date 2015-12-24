@@ -34,7 +34,7 @@
     group: vagrant
     mode: 0700
 
-- name: Get Vagrant's public key.
+- name: Get Vagrants public key.
   get_url:
     url: https://github.com/mitchellh/vagrant/raw/master/keys/vagrant.pub
     dest: /home/vagrant/.ssh/authorized_keys
